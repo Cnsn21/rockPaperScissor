@@ -1,0 +1,74 @@
+body{
+    font-family: poppins-bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 247, 240);
+}
+
+h1{
+    font-size: 3.5rem;
+    color: black;
+}
+
+.choices{
+    margin-bottom: 30px;
+}
+
+.choices button{
+    font-size: 5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 150px;
+    background-color: rgb(108, 167, 180);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choices button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.choices button img {
+    width: 200px; 
+    height: 200px;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+
+.greenText, #playerScoreDisplay{
+    color: green;
+    font-family: poppins-med;
+}
+
+.redText, #computerScoreDisplay{
+    color: red;
+    font-family: poppins-med;
+}
+
+
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-med;
+    src: url(Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: poppins-reg;
+    src: url(Poppins-Regular.ttf);
+}
