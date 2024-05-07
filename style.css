@@ -13,12 +13,12 @@ h1{
 }
 
 .choices{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .choices button{
     font-size: 5rem;
-    min-width: 160px;
+    min-width: 150px;
     margin: 0 10px;
     border-radius: 150px;
     background-color: rgb(108, 167, 180);
@@ -45,18 +45,6 @@ h1{
 .scoreDisplay{
     font-size: 2rem;
 }
-
-.greenText, #playerScoreDisplay{
-    color: green;
-    font-family: poppins-med;
-}
-
-.redText, #computerScoreDisplay{
-    color: red;
-    font-family: poppins-med;
-}
-
-
 
 @font-face {
     font-family: poppins-bold;
